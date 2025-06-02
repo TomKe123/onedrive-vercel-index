@@ -2,7 +2,7 @@
  * This file contains the configuration used for customising the website, such as the folder to share,
  * the title, used Google fonts, site icons, contact info, etc.
  */
-module.exports = {
+module。exports = {
   // This is what we use to identify who you are when you are initialising the website for the first time.
   // Make sure this is exactly the same as the email address you use to sign into your Microsoft account.
   // You can also put this in your Vercel's environment variable 'NEXT_PUBLIC_USER_PRINCIPLE_NAME' if you worry about
@@ -42,7 +42,8 @@ module.exports = {
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
-  protectedRoutes: ['/🌞 Private folder/u-need-a-password', '/🥟 Some test files/Protected route'],
+  protectedRoutes: ['/微电影项目', 
+                    ],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   email: 'mailto:admin@freemss365.onmicrosoft.com',
